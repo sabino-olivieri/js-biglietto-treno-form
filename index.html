@@ -5,27 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biglietto Treno</title>
     <!-- css -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-    <div class="container">
-        <div>
-            <label for="username">Inserisci Nome e Cognome</label>
-            <input type="text" id="username" placeholder="Mario Rossi" required>
+    <div class="container bg-yellow">
+        <div class="flex align-center">
+            <label class="col" for="username">Inserisci Nome e Cognome: </label>
+            <input class="col padding" type="text" id="username" placeholder="Mario Rossi" required>
         </div>
 
-        <div>
-            <label for="user-km">Inserisci i km da percorrere</label>
-            <input type="number" id="user-km" placeholder="100" required>
+        <div class="flex align-center margin-top">
+            <label class="col" for="user-km">Inserisci i km da percorrere: </label>
+            <input class="col padding" type="number" id="user-km" placeholder="100" required>
         </div>
 
-        <div>
-            <label for="user-age">Inserisci quanti anni hai</label>
-            <input type="number" id="user-age" placeholder="25" required>
+        <div class="flex align-center margin-top">
+            <label class="col" for="user-age">Inserisci quanti anni hai: </label>
+            <input class="col padding" type="number" id="user-age" placeholder="25" required>
         </div>
+        
+        <div class="flex justify-center margin-ticket">
+            <button class="btn" id="send">Invia</button>
+        </div>
+        
+        <div id="ticket">
 
-        <button id="send">Invia</button>
+        </div>
 
     </div>
 

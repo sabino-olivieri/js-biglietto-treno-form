@@ -2,14 +2,95 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 0;
 }
 
 .container {
     margin: 50px auto;
     width: 70%;
-    padding: 20px;
-    border-radius: 50px;
-    text-align: center;
-    font-family: sans-serif;
+    padding: 50px;
+    border-radius: 10px;
+    font-family: sans-serif;    
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 157, 255);
+    color: white;
+}
+
+.col {
+    width: 50%;
+}
+
+.col-ticket-small {
+    width: 30%;
+    background-color: grey;
+}
+
+.col-ticket-large {
+    width: 70%;
+}
+
+.col25 {
+    width: 25%;
+}
+
+#ticket {
+    margin-top: 50px;
+}
+
+input {
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.margin-ticket {
+    margin-top: 50px;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-red {
+    background-color: lightcoral;
+}
+
+.bg-yellow {
     background-color: blanchedalmond;
+}
+
+.bg-green {
+    background-color: lightgreen;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.barcode {
+    font-family: "Libre Barcode 128", system-ui;
+    font-size: 2rem;
 }
