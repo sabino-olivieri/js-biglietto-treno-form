@@ -15,9 +15,9 @@ Inserire event listener al bottone invia AL CLICK SUL BOTTONE:
 1. RACCOLTA DATI: km da percorrere e età dagli input 
 
 2. ESECUZIONE LOGICA
-    - [ ] controllare correttezza dei dati inseriti
-    - [ ] creare variabile kmPrice in base ai km
-    - [ ] applicare sconto in base all'età
+    - [x] controllare correttezza dei dati inseriti
+    - [x] creare variabile kmPrice in base ai km
+    - [x] applicare sconto in base all'età
             - se minorenne 20%
             - se over 65 40%
 
