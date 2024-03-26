@@ -31,7 +31,7 @@ sendBtn.addEventListener("click", function () {
     if (!isNaN(kmUser) && !isNaN(ageUser) && userName.length > 1 && kmUser > 0 && ageUser >= 0) {
         
         console.log("dati corretti");
-        containerElm.classList.remove("bg-yellow");
+        containerElm.classList.remove("bg-yellow", "bg-red");
         containerElm.classList.add("bg-green");
 
         // creo variabile kmPrice in base ai km
@@ -102,7 +102,7 @@ sendBtn.addEventListener("click", function () {
 
     else { 
         alert("Dati inseriti errati");
-        containerElm.classList.remove("bg-yellow");
+        containerElm.classList.remove("bg-yellow" , "bg-green");
         containerElm.classList.add("bg-red");
      }
 
