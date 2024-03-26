@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    margin: 50px auto;
+    width: 70%;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+}
