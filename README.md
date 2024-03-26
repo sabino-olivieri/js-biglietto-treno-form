@@ -22,4 +22,4 @@ Inserire event listener al bottone invia AL CLICK SUL BOTTONE:
             - se over 65 40%
 
 3. OUTPUT
-    - [ ] stampa del biglietto
+    - [x] stampa del biglietto
