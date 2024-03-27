@@ -1,3 +1,4 @@
+"use strict";
 //prelevo elemento del button send
 const sendBtn = document.getElementById("send");
 console.log(sendBtn);
