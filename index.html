@@ -13,17 +13,22 @@
     <div class="container bg-yellow">
         <div class="flex align-center">
             <label class="col" for="username">Inserisci Nome e Cognome: </label>
-            <input class="col padding" type="text" id="username" placeholder="Mario Rossi" required>
+            <input class="col" type="text" id="username" placeholder="Mario Rossi" required>
         </div>
 
         <div class="flex align-center margin-top">
             <label class="col" for="user-km">Inserisci i km da percorrere: </label>
-            <input class="col padding" type="number" id="user-km" placeholder="100" required>
+            <input class="col" type="number" id="user-km" placeholder="100" required>
         </div>
 
         <div class="flex align-center margin-top">
             <label class="col" for="user-age">Inserisci quanti anni hai: </label>
-            <input class="col padding" type="number" id="user-age" placeholder="25" required>
+            <select class="col" name="user-age" id="user-age">
+                <option value="xx">--- Scegli un opzione ---</option>
+                <option value="minorenne">Minorenne</option>
+                <option value="maggiorenne">Tra 18 e 65</option>
+                <option value="over65">Over65</option>
+            </select>
         </div>
         
         <div class="flex justify-center margin-ticket">

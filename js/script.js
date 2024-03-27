@@ -23,12 +23,8 @@ sendBtn.addEventListener("click", function () {
     kmUser = parseFloat(kmUser); // number
     console.log("km in number:", kmUser);
 
-    // converto l'età in number
-    ageUser = parseInt(ageUser); // number
-    console.log("Età in number:", ageUser);
-
     //controllo correttezza dei dati
-    if (!isNaN(kmUser) && !isNaN(ageUser) && userName.length > 1 && kmUser > 0 && ageUser >= 0) {
+    if (!isNaN(kmUser) && ageUser != "xx" && userName.length > 1 && kmUser > 0) {
         
         console.log("dati corretti");
         containerElm.classList.remove("bg-yellow", "bg-red");
@@ -47,10 +43,10 @@ sendBtn.addEventListener("click", function () {
         //creo variabile nome offerta
         let offerName = "Offerta Standard";
 
-        if (ageUser < 18) {
+        if (ageUser === "minorenne") {
             discountApplied = 20;
             offerName = "Offerta Minorenni";
-        } else if (ageUser > 65) {
+        } else if (ageUser > "over65") {
             discountApplied = 40;
             offerName = "Offerta Over65";
         }
