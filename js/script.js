@@ -16,7 +16,7 @@ sendBtn.addEventListener("click", function () {
     console.log("KmUser:", kmUser);
 
     //prelevo valore dall'input dell'età
-    let ageUser = document.getElementById("user-age").value; // string | null
+    const ageUser = document.getElementById("user-age").value; // string | null
     console.log("Età:", ageUser);
 
     // converto i km in number
